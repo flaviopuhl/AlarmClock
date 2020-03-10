@@ -7,7 +7,7 @@ Connections:
 WeMos D1 Mini   Nokia 5110    Description
 (ESP8266)       PCD8544 LCD
 D2 (GPIO4)      0 RST         Output from ESP to reset display
-D1 (GPIO5)      1 CE          Output from ESP to chip select/enable display
+D1 (GPIO5)      1 CE          Output from ESP to chip select/enable display >> Connected to GND
 D6 (GPIO12)     2 DC          Output from display data/command to ESP
 D7 (GPIO13)     3 Din         Output from ESP SPI MOSI to display data input
 D5 (GPIO14)     4 Clk         Output from ESP SPI clock
